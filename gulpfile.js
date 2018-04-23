@@ -103,7 +103,9 @@ gulp.task('browser-sync', () => {
     server: {
       baseDir: 'dist'
     },
-    ghostMode: true,
+    notify: false,        // hide the 'connected to browsersyc' notification
+    ghostMode: true,      // reflect actions on all devices currently connected
+
     watchEvents: ['change', 'add', 'unlink', 'addDir', 'unlinkDir']
   })
 })

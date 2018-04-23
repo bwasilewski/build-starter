@@ -36,14 +36,6 @@ const taskconfigs   = {
       {
         label: 'Contact',
         path: '/contact.html'
-      },
-      {
-        label: 'Components',
-        path: '/components/'
-      },
-      {
-        label: 'Layout',
-        path: '/layout/'
       }
     ]
   }
